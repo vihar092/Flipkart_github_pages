@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --inter-font : "Inter", sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 150px;
+}
+body{
+    min-height: 100vh;
+    font-family: var(--inter-font);
+}
+main{
+    margin-left: 150px;
+
+}
+#header1{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    margin-right: 230px;
+}
+#ButtonHeader{
+    display: flex;
+    gap: 15px;
+}
+#flipcart-button{
+    display: flex;
+    align-items: center;
+    gap: 5px;   
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    padding-right: 35px;
+    height: 43px;
+}
+#LocationHeader{
+    display: flex;
+    gap: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: var(--inter-font);
+    margin-top: 10px;
+}
+#LocationHeader>p>span{
+    color: #417FED;
+}
+#header2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 180px;
+}
+#headerInputCover{
+    height: 40px;
+    width: 75%;
+    border: 2px solid #417FED;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+#headerInputCover>i{
+    font-size: 23px;
+    color: gray;
+    margin-left: 10px;
+}
+#HeaderInput{
+    height: 40px;
+    width: 95%;
+    border: none;
+    font-family: var(--inter-font);
+    font-size: 15px;
+    outline: none;
+}
+input:focus{
+    border: none;
+}
+.CenterCSS{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+#Header2CartButton{
+    border: none;
+    background-color: white;
+    color: #7C7B7E;
+    gap: 20px;
+}
+#UserShortCut{
+    font-size: 15px;
+    color: #7C7B7E;
+}
+.DividerInHeader{
+    height: 0.5px;
+    width: 88%;
+    background-color: gray;
+}
+.haeder3{
+    margin-left: 10px;
+    display: flex;
+    max-width: 88%;
+    /* flex-wrap: wrap; */
+    overflow-x: scroll;
+}
+.innerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    min-width: 80px;
+    max-height: 60px;
+}
+.innerCard>img{
+    height: 30px;
+    width: 35px;
+    padding: 5px;
+}
+.TruncateName{
+    max-width: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.Login:hover .selectedImg{
+    transform: rotate(180deg);
+}
+img{
+    transition: transform 0.3s;
+}
+
+.Offer{
+    width: 88%;
+}
+.Offer>img{
+    width: 100%;
+}
+
+.adSlider{
+    margin-top: 20px;
+    display: flex;
+    width: 88%;
+    gap: 20px;
+    overflow: hidden;
+    height: 250px;
+    /* background-color: red; */
+}
+.adPic>img{
+    height: 100%;
+    border-radius: 20px;
+}
+ #adPic1{
+    flex-grow: 2;
+ }
+ #adPic2{
+    flex-grow: 2;
+ }
+ #adPic3{
+    flex-grow: 1;
+ }
+
+ .home-decor{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #212121;
+    width: 88%;
+    padding: 10px;
+ }
+
+
+.home-decor-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+ .home-decor-header>h2{
+    color: white;
+ }
+ .home-decor-header>button>i{
+    font-size: 18px;
+ }
+ #Home-Decore-arrow-button{
+    height: 40px;
+    width: 60px;
+    border-radius: 30px;
+    border: none;
+ }
+ .home-decor-product{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+ }
+ .home-decor-product-card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 180px;
+    background-color: wheat;
+    border-radius: 20px;
+ }
+ .home-decor-product-card>section>img{
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+ }
+.home-decor-product-card{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.home-decor-product-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(248, 7, 7, 0.2);
+    background-color:#85f6cc;
+}
+
+.Looking-for{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #85f6cc;
+    width: 88%;
+    padding: 10px;
+ }
+.Looking-for-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+ .Looking-for-header>h2{
+    color: white;   
+ }
+ .Looking-for-header>button>i{
+    font-size: 18px;
+ }
+ #Looking-fore-arrow-button{
+    height: 40px;
+    width: 60px;
+    border-radius: 30px;
+    border: none;
+ }
+ .Looking-for-product{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+ }
+ .Looking-for-product-card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    width: 180px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+ }
+.Looking-for-product-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(248, 7, 7, 0.2);
+    background-color:#a7f7da;
+}
+ 
+ .Looking-for-product-card>section>img{
+    height: 150px;
+ }
+ .Looking-for-img{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+ }
+ .Brand-spotligth{
+    padding: 20px;
+ }
+ .Brand-spotligth-img-all{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+ }
+.Brand-spotligth-img>img{
+    height: 250px;
+}
+
+.footer-header{
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    color: #212121;
+}
+.footer-content{
+    background-color: #212121;
+    height: 270px;
+    display: flex;
+}
+.footer-sub-content{
+    padding: 35px 35px;
+}
+.footer-sub-content>h3{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.footer-sub-content>p{
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+.footerDivider{
+    height: 200px;
+    margin: 50px 0;
+    width: 1px;
+    background-color: gray;
+}
+.social-header{
+    margin-top: 30px;
+}
+.footer-sub-content>i{
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+}
